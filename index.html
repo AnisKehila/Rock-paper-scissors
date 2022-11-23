@@ -9,20 +9,29 @@
 </head>
 <body>
     <h1>Rock, Paper, And Scissors</h1>
-    <h2>0 - 0</h2>
+    <h2 id="score">0 - 0</h2>
+    <h1 id="msg"></h1>
     <div class="imgs">
-        <div id="rock">
+        <div id="rock" data-choice="rock">
             <img src="images/rock.png" alt="rock">
             <span>Rock</span>
         </div>
-        <div id="paper">
+        <div id="paper" data-choice="paper">
             <img src="images/paper.png" alt="paper">
             <span>Paper</span>
         </div>
-        <div id="scissors">
+        <div id="scisors" data-choice="scisors">
             <img src="images/scissors.png" alt="scissors">
             <span>Scissors</span>
         </div>
+    </div>
+    <div id="game-log">
+        <ul id="user-choice">
+            <li><h2>Your Choice</h2></li>
+        </ul>
+        <ul id="computer-choice">
+            <li><h2>Comuter Choice</h2></li>
+        </ul>
     </div>
     <script src="script.js"></script>
 </body>

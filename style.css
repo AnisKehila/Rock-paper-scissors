@@ -13,14 +13,18 @@ body {
     align-items: center;
 }
 h1 {
-    margin: 10rem 0 1rem 0;
+    margin: 5rem 0 2rem 0;
     font-size: 3.2rem;
     font-weight: 400;
 }
+#msg {
+    margin: 1rem 0;
+    color: #28334aff;
+    font-size: 2rem;
+}
 h2 {
     letter-spacing: 1.4;
-    margin-bottom: 2rem;
-    color: gray;
+    color: #888;
     font-size: 2.8rem;
 }
 .imgs {
@@ -42,4 +46,20 @@ h2 {
 }
 .imgs div:hover  {
     transform: translateY(-1rem);
+}
+#game-log {
+    display: flex;
+    gap: 160px;
+    margin-top: 4rem;
+}
+#game-log li {
+    list-style: none;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #28334aff;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+}
+#game-log h2 {
+    font-size: 2rem;
 }
